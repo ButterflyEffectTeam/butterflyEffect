@@ -1,6 +1,12 @@
 ---
-# butterflyeffect issue 양식
+name: "이슈"
+about: "이슈 템플릿"
+title: "[issue]"
+labels: issue
+assigness: ""
 ---
+
+# butterflyeffect issue 양식
 
 ## 이슈 제목
 
