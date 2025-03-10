@@ -1,3 +1,8 @@
+---
+name: "pull request"
+about: "pull request template"
+---
+
 # butterflyeffect pull request 양식
 
 ## PR 작업
