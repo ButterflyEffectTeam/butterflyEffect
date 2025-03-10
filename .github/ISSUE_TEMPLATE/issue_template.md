@@ -1,9 +1,6 @@
 ---
-name: "이슈"
-about: "이슈 템플릿"
-title: "[issue]"
-labels: issue
-assigness: ""
+name: "issue"
+about: "issue template"
 ---
 
 # butterflyeffect issue 양식
