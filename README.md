@@ -1,23 +1,36 @@
 # butterflyEffect
 
-프로젝트 주제 : 로컬 환경 전용 체크리스트 알림 웹사이트
+![실행화면](ButterflyEffect/images/butterflyEffectResult.png)
 
-프로젝트 이름 : 나비효과
+React + Vite + TypeScript로 구성된 예시 프로젝트입니다.  
+(간단히 “나비 효과(Butterfly Effect)”라는 이름을 붙였습니다.)
 
-프로젝트 팀명 : **ButterflyEffectTeam(깃허브 팀)**
-
-기술 스택 : JS, TS, React, HTML, CSS
+프로젝트 주제 : 체크 리스트와 연동된 달성률 게이지 바 UI 구현
 
 기능
 
-[ ] 정해둔 알림 시간마다 뜨는 체크 박스가 있는 미리 설정한 체크리스트
-[ ] 체크 박스를 누르고 종료 버튼을 누르면 달성률에 누적
-[ ] 체크리스트가 뜰 때, 옆에 세로 막대형 게이지 그래프 UI 구현
-[ ] (선택) PWA를 기술을 활용하여 pc 또는 모바일 앱으로 구현
+[x] 체크 박스를 누르고 종료 버튼을 누르면 달성률에 누적
+[x] 체크리스트가 뜰 때, 옆에 달성률 막대 그래프 UI 구현
 
 ## 설치
 
+```bash
+# github에서 해당 프로젝트를 clone한 뒤, 프로젝트 폴더로 이동
+
+git clone https://github.com/ButterflyEffectTeam/butterflyEffect.git
+cd ButterflyEffect
+
+# 의존성 설치
+npm install
+```
+
 ## 사용법
+
+```bash
+npm run dev
+
+#이후 해당 로컬 URL 클릭 or 주소창 입력
+```
 
 ## 기여하기
 
