@@ -1,0 +1,129 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.box {
+  display: flex;
+  background-color: #fff;
+  width: 320px;
+  height: 220px;
+  border: 1.5px solid #ccc;
+  padding: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.box-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check-item {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #666;
+  border-radius: 3px;
+  margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.custom-checkbox:checked {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.custom-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.box-right {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-bar {
+  position: relative;
+  width: 20px;
+  height: 150px;
+  border: 3px solid #eee;
+  overflow: hidden;
+  background-color: #ddd;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2),
+    inset 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #666,
+    #666 1px,
+    transparent 1px,
+    transparent 15px
+  );
+  background-position: 0 15px;
+}
+
+.vertical-bar-fill {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: height 0.3s ease;
+}
+
+.vertical-marker-container {
+  position: relative;
+  width: 60px;
+  height: 150px;
+}
+
+.marker-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+  transition: bottom 0.3s ease;
+  transform: translateY(50%);
+}
+
+.vertical-bar-marker {
+  width: 20px;
+  height: 1px;
+  background-color: #333;
+}
+
+.vertical-bar-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+}
